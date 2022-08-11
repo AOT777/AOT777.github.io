@@ -1,0 +1,16 @@
+import{_ as p,a as u,o as a,h as d,w as n,e,f as o,g as h,i as b,j as m,c as r,b as l,k as g}from"./index.fbf7f88f.js";import{p as $}from"./preview.9437fdc5.js";const v={},k=o("\u6D4B\u8BD5\u6309\u94AE"),x=o("\u6D4B\u8BD5\u6309\u94AE"),w=o("\u6D4B\u8BD5\u6309\u94AE"),y=o("\u6D4B\u8BD5\u6309\u94AE"),B=o("\u6D4B\u8BD5\u6309\u94AE"),N=o("\u6D4B\u8BD5\u6309\u94AE"),S=o("\u6D4B\u8BD5\u6309\u94AE"),A=o("\u6D4B\u8BD5\u6309\u94AE"),T=o("\u6D4B\u8BD5\u6309\u94AE"),V=o("\u6D4B\u8BD5\u6309\u94AE"),z=o("\u6D4B\u8BD5\u6309\u94AE");function C(i,s){const t=u("t-button"),_=u("tSpace");return a(),d(_,null,{default:n(()=>[e(t,null,{default:n(()=>[k]),_:1}),e(t,null,{default:n(()=>[x]),_:1}),e(t,null,{default:n(()=>[w]),_:1}),e(t,null,{default:n(()=>[y]),_:1}),e(t,null,{default:n(()=>[B]),_:1}),e(t,null,{default:n(()=>[N]),_:1}),e(t,null,{default:n(()=>[S]),_:1}),e(t,null,{default:n(()=>[A]),_:1}),e(t,null,{default:n(()=>[T]),_:1}),e(t,null,{default:n(()=>[V]),_:1}),e(t,null,{default:n(()=>[z]),_:1})]),_:1})}var D=p(v,[["render",C]]);const j={__name:"Attributes",setup(i){const s=h({options:{fileds:[{field:"attr",title:"\u53C2\u6570",align:"center"},{field:"type",title:"\u7C7B\u578B",align:"center"},{field:"talk",title:"\u8BF4\u660E",align:"center",width:"350px"},{field:"sel",title:"\u53EF\u9009\u503C",align:"center"},{field:"def",title:"\u9ED8\u8BA4\u503C",align:"center"}],datas:[{attr:"inline",type:"Boolean",talk:"\u662F\u5426\u4E3A\u6C34\u5E73\u6216\u8005\u5782\u76F4\uFF0C\u9ED8\u8BA4\u6A2A\u5411",sel:"true/false",def:"true"},{attr:"size",type:"Array",talk:"\u81EA\u5B9A\u4E49\u95F4\u8DDD\u5927\u5C0F\uFF0C\u63A5\u6536\u4E24\u4E2A\u53C2\u6570\uFF0C\u7B2C\u4E00\u4E2A\u4E3A\u5782\u76F4\u95F4\u8DDD\uFF0C\u7B2C\u4E8C\u4E2A\u4E3A\u6C34\u5E73\u95F4\u8DDD\uFF0C\u5F53inline\u4E3Afalse\u662F\uFF0C\u53EA\u9700\u8981\u4E00\u4E2A\u53C2\u6570\u8BBE\u7F6E\u5782\u76F4\u95F4\u8DDD\u5373\u53EF",sel:"\u2014\u2014",def:"\u2014\u2014"}]}}),{options:t}=s;return(_,f)=>{const c=u("tTable");return a(),d(c,{options:b(t),size:"small"},null,8,["options"])}}},E={class:"markdown-body"},q=l("h2",null,"Space \u95F4\u8DDD",-1),F=l("br",null,null,-1),G=l("summary",null,"\u5C55\u5F00\u67E5\u770B\u4EE3\u7801",-1),H=l("pre",null,[l("code",{class:"language-html"},`    <template>
+        <tSpace>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+            <t-button>\u6D4B\u8BD5\u6309\u94AE</t-button>
+        </tSpace>
+    </template>
+`)],-1),I=[G,H],J=l("h2",null,"Attributes \u53C2\u6570",-1),K=l("br",null,null,-1),O={__name:"doc",setup(i,{expose:s}){return s({frontmatter:{}}),(_,f)=>{const c=m("highlight");return a(),r("div",E,[q,l("p",null,[e(D),F]),g((a(),r("details",null,I)),[[c]]),e($,{compName:"space",demoName:"demo1"}),J,e(j),K])}}};export{O as default};
